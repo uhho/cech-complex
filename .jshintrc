@@ -1,0 +1,7 @@
+{
+  "expr": true,
+  "globals": {
+    "document": true
+  },
+  "mocha": true
+}
