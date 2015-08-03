@@ -1,0 +1,23 @@
+{
+  "name": "cech-complex",
+  "version": "1.0.0",
+  "description": "Cech complex builder",
+  "main": "./lib/cech.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "cech",
+    "complex"
+  ],
+  "author": "Lukasz Krawczyk <contact@lukaszkrawczyk.eu> (http://lukaszkrawczyk.eu)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  }
+}
