@@ -1,6 +1,6 @@
 {
   "name": "cech-complex",
-  "version": "1.1.0",
+  "version": "1.0.1",
   "description": "Cech complex builder",
   "main": "./lib/cech.js",
   "directories": {
