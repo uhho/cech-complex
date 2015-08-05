@@ -10,20 +10,24 @@ var cellR = 90;
 var a = generateData(200, 200, 160, 11, cellR);
 var b = generateData(200, 200, 120, 9, cellR);
 var c = generateData(440, 200, 140, 9, cellR);
-var d = generateData(440, 200, 80, 7, cellR);
-var cells = a.concat(b, c);
+var d = generateData(440, 200, 100, 7, cellR);
+var cells = a.concat(b, c, d);
 
-//setInterval(function() {
-  var l = cells.length;
-  var cell;
-  var variance = 20;
-  while (l--) {
-    cell = cells[l];
-    cell[0][0] = Math.max(0, cell[0][0] + (Math.random() * variance) - variance/2);
-    cell[0][1] = Math.max(0, cell[0][1] + (Math.random() * variance) - variance/2);
-  }
-  draw(cells); 
-//}, 100);
+var l = cells.length;
+var cell;
+var variance = 20;
+while (l--) {
+  cell = cells[l];
+  cell[0][0] = Math.max(
+    0,
+    cell[0][0] + (Math.random() * variance) - variance / 2
+  );
+  cell[0][1] = Math.max(
+    0,
+    cell[0][1] + (Math.random() * variance) - variance / 2
+  );
+}
+draw(cells);
 
 /******************************************************************************/
 
